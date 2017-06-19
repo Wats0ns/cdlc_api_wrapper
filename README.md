@@ -9,12 +9,12 @@ Crème de la Crème API Wrapper
 ```node
 var Cdlc = require("./index.js")
 
-var el = new Cdlc('you.email@mail.com', 'password1234');
-el.auth()
+var cdlc_api = new Cdlc('you.email@mail.com', 'password1234');
+cdlc_api.auth()
   .then((res) => {
     // Successfull user login
     console.log('Sucess fully logged');
-    el.getFeed()
+    cdlc_api.getFeed()
       .then((feed) => {
       // Get the last missions
         console.log(feed);
