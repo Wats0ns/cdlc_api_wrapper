@@ -1,6 +1,6 @@
 {
   "name": "cdlc_api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Crème de la Crème API",
   "main": "index.js",
   "scripts": {
