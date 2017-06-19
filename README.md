@@ -4,7 +4,7 @@ Crème de la Crème API Wrapper
 ## Installation
 ` npm install cdlc_api`
 
-## Uage
+## Usage
 
 ```node
 var Cdlc = require("./index.js")
