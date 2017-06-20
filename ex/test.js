@@ -3,7 +3,7 @@ var Auth = require("./auth/auth.js");
 
 
 // Auth.auth('r', 't');
-var el = new Cdlc('quentin.maire@gmail.com', 'kvd_Jqkc');
+var el = new Cdlc('email', 'password');
 el.auth()
   .then((yo) => {
     console.log(yo);
