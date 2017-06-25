@@ -7,7 +7,7 @@ Crème de la Crème API Wrapper
 ## Usage
 
 ```node
-var Cdlc = require("./index.js")
+var Cdlc = require("cdlc_api")
 
 var cdlc_api = new Cdlc('you.email@mail.com', 'password1234');
 cdlc_api.auth()
